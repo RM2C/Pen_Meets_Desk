@@ -7,8 +7,10 @@ the air. To overcome this limitation, we propose a mechanical pen device that ch
 reproducibility. We designed a trajectory tracing task on 0-/15-/30-degree slanted canvases and compared drawing with and without our encountered haptic rendering in terms of tracing accuracy, usability, and workload. The results
 revealed that our method has the potential to afford better line tracing performance and reduce workload. We discuss how precise device length controls can contribute to improving usability and decreasing workload on a steep canvas.
 
+![Overview](figures/DrawingOnCanvasWithExtendablePen.png)
+
 # Contents
-This repository includes a code of Arduino to control pen device length and 3D models of pen device.
+This repository includes a code of Arduino to control pen device length and 3D models of pen device. The pen device consists of five 3D-printed parts contained in the [hardware directory](hardware), a gear motor ([50:1 Micro Metal Gearmotor HPCB 12V with Extended Motor Shaft](https://www.pololu.com/product/3050)) with a magnetic encoder ([Magnetic Encoder Pair Kit for Micro Metal Gearmotors](https://www.pololu.com/product/3081)), and a VR tracker (VIVE Tracker 2018).
 ```
 .
 ├── Arduino/                       
@@ -20,6 +22,7 @@ This repository includes a code of Arduino to control pen device length and 3D m
 │   ├── rack_cover.stl             # Housing (pen)
 │   └── tracker_joint.stl          # Tracker mount
 ```
+<img src="figures/3DModelOfDevice.png" width="50%">
 
 # Citations
 If you find our work useful in your research, please consider citing our paper: 
