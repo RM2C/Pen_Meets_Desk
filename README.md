@@ -27,14 +27,17 @@ This repository includes a code of Arduino to control pen device length and 3D m
 # Citations
 If you find our work useful in your research, please consider citing our paper: 
 ```
-@article{ExtickTouch_JIP2026,
-  title={Pen Meets Desk: Above-surface Drawing with Encountered-type Haptics Using an Extendable Pen},
-  author={Fumihiko Nakamura and Yuki Takanaga and Hinata Miyauchi and Yuta Kataoka and Shohei Mori and Fumihisa Shibata and Asako Kimura},
-  journal={Journal of Information Processing},
-  volume={34},
-  number={1},
-  pages={XX--XX},
-  year={2026},
-  doi={To be apperared}
+@article{oai:ipsj.ixsq.nii.ac.jp:02006764,
+ author = {Fumihiko,Nakamura and Yuki,Takanaga and Hinata,Miyauchi and Yuta,Kataoka and Shohei,Mori and Fumihisa,Shibata and Asako,Kimura and Fumihiko Nakamura and Yuki Takanaga and Hinata Miyauchi and Yuta Kataoka and Shohei Mori and Fumihisa Shibata and Asako Kimura},
+ issue = {1},
+ journal = {Journal of Information Processing},
+ month = {Jan},
+ title = {Pen Meets Desk: Above-surface Drawing with Encountered-type Haptics Using an Extendable Pen},
+ volume = {67},
+ number = {1},
+ pages = {29-38},
+ doi = {10.2197/ipsjjip.34.29},
+ year = {2026}
 }
+
 ```
